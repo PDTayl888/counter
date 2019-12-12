@@ -3,6 +3,8 @@ import Counter from './counter.jsx';
 
 class Counters extends Component {
   render() {
+    console.log('Counters - Rendered');
+
     const { onIncrement, onDelete, onReset } = this.props;
 
     return (
